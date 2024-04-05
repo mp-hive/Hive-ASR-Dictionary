@@ -17,4 +17,4 @@ decentralized high-fund=Decentralized Hive Fund
 Splinterland=Splinterlands
 ```
 
-If we use the last line as an example, the script would replace any occurence of the word 'Splinterland' with 'Splinterlands', but it NOT replace it if that phrase was part of a word (i.e. It wouldn't identify the phrase "Splinterland" in "Splinterland"s", producing the erroneous result "Splinterlandss".
+If we use the last line as an example, the script would replace any occurence of the word 'Splinterland' with 'Splinterlands', but it would NOT replace it if that phrase was part of a word (i.e. it wouldn't identify the phrase "Splinterland" within the word  "Splinterlands", producing the erroneous result "Splinterlandss".
