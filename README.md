@@ -5,7 +5,7 @@
 
 # Usage
 - If you run replaceTriggers.py without arguments, you will be prompted to confirm that you want to replace all keywords in triggers.db recursively (meaning all files in the current folder and its subfolders) for any .txt and .srt file present.
-- You can also run it on a specific file by using the argument -f (example: replaceTrigger.py -f filename
+- You can also run it on a specific file by using the argument -f (example: replaceTrigger.py -f filename)
 
 # Functionality and the structure of 'triggers.db'
 The script will only match and replace the words listed before the "=" sign if they're matched exactly as standalone words. 
